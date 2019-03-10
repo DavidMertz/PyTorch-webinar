@@ -1,0 +1,16 @@
+name: Pearson-PyTorch
+channels:
+  - intel
+  - conda-forge
+dependencies:
+  - python=3.7
+  - scikit-learn
+  - pytorch
+  - pandas
+  - numpy
+  - matplotlib
+  - jupyter
+  - seaborn
+  - pillow
+  - graphviz
+  - pygraphviz
