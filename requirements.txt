@@ -8,6 +8,8 @@ matplotlib
 jupyter
 seaborn
 pillow
+keras
+tensorflow
 
 # This is only the Python bindings for graphviz
 # Need to use system installers for graphviz itself

@@ -29,8 +29,6 @@ $ juypter notebook Outline.ipynb
 
 * [(Video) Machine Learning with scikit-learn LiveLessons](https://www.oreilly.com/library/view/machine-learning-with/9780135474198/), by David Mertz
 
-* [Deep Learning with PyTorch](https://learning.oreilly.com/library/view/deep-learning-with/9781788624336/), by Vishnu Subramanian
-
 * _Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems_, by Aurélien Géron
 
 * _Deep Learning with Python_, by Francois Chollet

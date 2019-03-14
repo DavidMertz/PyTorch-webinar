@@ -14,3 +14,7 @@ dependencies:
   - pillow
   - graphviz
   - pygraphviz
+  - keras
+  - tensorflow
+  - pip:
+      - torchsummary
