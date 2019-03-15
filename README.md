@@ -23,6 +23,8 @@ $ juypter notebook Outline.ipynb
 
 ## Recommended reading
 
+* [GitHub:pytorch-examples](https://github.com/jcjohnson/pytorch-examples#pytorch-autograd), by Justin Johnson (written or PyTorch 0.4, but very clear conceptual summary)
+
 * [Beginner Machine Learning with `scikit-learn`](https://github.com/DavidMertz/ML-Live-Beginner)
 
 * [Intermediate Machine Learning with `scikit-learn`](https://github.com/DavidMertz/ML-Live-Intermediate)
