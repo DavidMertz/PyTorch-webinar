@@ -67,13 +67,17 @@ blobs, classes = make_blobs(n_samples=500,
                             centers=[(-4, -4), (-2, 2), (2, 0)],
                             random_state=42)
 
+def show_clusters(blobs, classes, centroids=None):
+    plt.figure(figsize=(6, 6))
+    plt.scatter(blobs[:,0], blobs[:,1], 
+                c=np.array([('bgrcmykw'*10)[n] for n in classes]), 
+                marker='.')
+    if centroids is not None:
+        plt.scatter(centroids[:,0], centroids[:,1], marker="o", s=200, c='k')
+    plt.show()
 
-def cluster(n_clusters, known=False):
+def cluster(n_clusters, known=False, blobs=blobs):
     centers, _classes, inertia = k_means(blobs, n_clusters=n_clusters)
     if known:
         _classes = classes
-    plt.figure(figsize=(6, 6))
-    plt.scatter(blobs[:,0], blobs[:,1], 
-                c=np.array([('bgrcmykw'*10)[n] for n in _classes]), 
-                marker='.')
-    plt.show()
+    show_clusters(blobs, _classes)
