@@ -29,6 +29,17 @@ $ pip install -r requirements.txt
 $ juypter notebook Outline.ipynb
 ```
 
+PyTorch often works vastly faster when utilizing a CUDA GPU to perform training.  
+Students who wish to be able to follow along running the material on their own 
+machines in real time, are advised to obtain access to a GPU machine while 
+attending this webinar.
+ 
+Numerous cloud services provide access to rented GPU instances are reasonable hourly 
+costs.  AWS EC2 instances are very well known, and can be leased with good GPU 
+configurations.  The author is very fond of a service called vast.ai (https://vast.ai/) 
+that he will use during presentation of the webinar.   Of course, if you have any 
+moderately recent CUDA-enabled GPU on your home or work machine, you will be fine also.
+
 ## Recommended reading
 
 * [GitHub:pytorch-examples](https://github.com/jcjohnson/pytorch-examples#pytorch-autograd), by Justin Johnson (written or PyTorch 0.4, but very clear conceptual summary)
