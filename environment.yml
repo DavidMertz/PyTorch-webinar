@@ -2,10 +2,12 @@ name: Pearson-PyTorch
 channels:
   - intel
   - conda-forge
+  - pytorch
 dependencies:
   - python=3.7
   - scikit-learn
   - pytorch
+  - torchvision
   - pandas
   - numpy
   - matplotlib
@@ -14,7 +16,7 @@ dependencies:
   - pillow
   - graphviz
   - pygraphviz
-  - keras
-  - tensorflow
   - pip:
       - torchsummary
+      - keras
+      - tensorflow
