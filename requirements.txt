@@ -1,6 +1,7 @@
-# For Python 3.6+
+setuptools>=41
+Jinja2>=2.10.1
+torch>=1.2.0
 scikit-learn
-torch
 torchvision
 torchsummary
 pandas
@@ -12,4 +13,3 @@ pillow
 keras
 tensorflow
 allennlp
-
