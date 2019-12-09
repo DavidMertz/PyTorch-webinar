@@ -2,8 +2,8 @@
 
 This repository is for use with the Pearson Publishing live webinar
 "Machine Learning with `PyTorch`."  Versions of this material are
-used by other training provided by David Mertz and [KDM
-Training](http://kdm.training).
+used by other training provided by David Mertz <mertz@kdm.training> 
+and [KDM Training](http://kdm.training).
 
 If you have attended one of the webinars using this material, I
 encourage you to complete the survey on it at: [Machine Learning
