@@ -64,13 +64,15 @@ $  pip install -r requirements.txt
 
 ## Recommended reading
 
-* [GitHub:pytorch-examples](https://github.com/jcjohnson/pytorch-examples#pytorch-autograd), by Justin Johnson (written or PyTorch 0.4, but very clear conceptual summary).
+* [(Video) Machine Learning with PyTorch](https://learning.oreilly.com/videos/machine-learning-with/9780135627105), by David Mertz.
+
+* [(Video) Machine Learning with scikit-learn LiveLessons](https://www.oreilly.com/library/view/machine-learning-with/9780135474198/), by David Mertz.
+
+* [Documentation of PyTorch](https://pytorch.org/docs/stable/index.html)
 
 * [Beginner Machine Learning with `scikit-learn`](https://github.com/DavidMertz/ML-Live-Beginner).
 
 * [Intermediate Machine Learning with `scikit-learn`](https://github.com/DavidMertz/ML-Live-Intermediate).
-
-* [(Video) Machine Learning with scikit-learn LiveLessons](https://www.oreilly.com/library/view/machine-learning-with/9780135474198/), by David Mertz.
 
 * _Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems_, by Aurélien Géron.
 
@@ -82,4 +84,3 @@ $  pip install -r requirements.txt
 
 * _Data Science from Scratch: First Principles with Python_, by Joel Grus.
 
-* [Documentation of PyTorch](https://pytorch.org/docs/stable/index.html)
