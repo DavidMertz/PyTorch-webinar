@@ -1,5 +1,4 @@
-setuptools>=41
-Jinja2>=2.10.1
+tensorflow
 torch>=1.2.0
 scikit-learn
 torchvision
@@ -10,5 +9,3 @@ matplotlib
 jupyter
 seaborn
 pillow
-tensorflow
-allennlp
