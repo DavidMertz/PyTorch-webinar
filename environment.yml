@@ -1,6 +1,5 @@
 name: Pearson-PyTorch
 channels:
-  - intel
   - conda-forge
   - pytorch
 dependencies:
