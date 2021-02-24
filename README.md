@@ -59,8 +59,12 @@ $ apt-get install git
 $ apt-get install jq curl tree vim -y
 
 ### For modification of repo...
-### Create ~/.ssh/id_rsa based on local id_rsa.vastai
-$ git clone git://github.com/DavidMertz/Python-webinar.git
+### Create ~/.ssh/id_rsa based on local /home/dmertz/.ssh/id_rsa.vastai
+$ chmod 600 ~/.ssh/id_rsa
+$ git clone git@github.com:DavidMertz/PyTorch-webinar.git
+$ git config --global user.email "mertz@kdm.training"  # substitute as needed
+$ git config --global user.name "David Mertz"
+
 ### For cloning without intention to push changes...
 $ git clone https://github.com/DavidMertz/PyTorch-webinar.git
 
