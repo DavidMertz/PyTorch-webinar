@@ -1,22 +1,21 @@
 ## About the course
 
-This repository is for use with the Pearson Publishing live webinar
-"Machine Learning with `PyTorch`."  Versions of this material are
-used by other training provided by David Mertz (<mertz@kdm.training>)
-and [KDM Training](http://kdm.training).
+This repository is for use with the Pearson Publishing live webinar "Machine
+Learning with `PyTorch`."  Versions of this material are used by other training
+provided by David Mertz (<mertz@kdm.training>) and [KDM
+Training](http://kdm.training).
 
-If you have attended one of the webinars using this material, I
-encourage you to complete the survey on it at: [Machine Learning
-Webinar survey](https://goo.gl/pghpzD).  As folks fill this out, we
-will fold back the updated answers into the dataset used in the
-lessons themselves.
+If you have attended one of the webinars using this material, I encourage you
+to complete the survey on it at: [Machine Learning Webinar
+survey](https://goo.gl/pghpzD).  As folks fill this out, we will fold back the
+updated answers into the dataset used in the lessons themselves.
 
 ## Installing training materials
 
-Before attending this course, please configure the environments you
-will need.  Within the repository, find the file `requirements.txt`
-to install software using `pip`, or the file `environment.yml` to
-install software using `conda`.  I.e.:
+Before attending this course, please configure the environments you will need.
+Within the repository, find the file `requirements.txt` to install software
+using `pip`, or the file `environment.yml` to install software using `conda`.
+I.e.:
 
 ```bash
 $ conda env create -f environment.yml
@@ -31,35 +30,43 @@ $ pip install -r requirements.txt
 $ juypter notebook Outline.ipynb
 ```
 
-PyTorch often works vastly faster when utilizing a CUDA GPU to
-perform training.  Students who wish to be able to follow along
-running the material on their own machines in real time, are advised
-to obtain access to a GPU machine while attending this webinar.
+PyTorch often works vastly faster when utilizing a CUDA GPU to perform
+training.  Students who wish to be able to follow along running the material on
+their own machines in real time, are advised to obtain access to a GPU machine
+while attending this webinar.
  
-Numerous cloud services provide access to rented GPU instances are
-reasonable hourly costs.  AWS EC2 instances are very well known, and
-can be leased with good GPU configurations.  The author is very fond
-of a service called vast.ai (https://vast.ai/) that he will use
-during presentation of the webinar.   Of course, if you have any
-moderately recent CUDA-enabled GPU on your home or work machine, you
-will be fine also.
+Numerous cloud services provide access to rented GPU instances are reasonable
+hourly costs.  AWS EC2 instances are very well known, and can be leased with
+good GPU configurations.  The author is very fond of a service called vast.ai
+(https://vast.ai/) that he will use during presentation of the webinar.  The
+Docker image pytorch/pytorch is my preferred starting point on vast.ai.
 
-If you run this material on a leased cloud GPU, you will probably
-start with a fairly minimal base Docker image.  It will probably be
-a good idea to install a few tools using the system installer (some
-of those are used in the lessons themselves, but nothing important
-depends on them if you follow without those available).
+Of course, if you have any moderately recent CUDA-enabled GPU on your home or
+work machine, you will be fine also.
 
-I setup a new cloud instance with these steps, once I open a
-terminal into that machine:
+If you run this material on a leased cloud GPU, you will probably start with a
+fairly minimal base Docker image.  It will probably be a good idea to install a
+few tools using the system installer (some of those are used in the lessons
+themselves, but nothing important depends on them if you follow without those
+available).
+
+I setup a new cloud instance with these steps, once I open a terminal into that
+machine:
 
 ```bash
-$ git clone https://github.com/DavidMertz/PyTorch-webinar.git
-$ cd PyTorch-webinar/
 $ apt-get update  # Make sure latest repo information
+$ apt-get install git
 $ apt-get install jq curl tree vim -y
+
+### For modification of repo...
+### Create ~/.ssh/id_rsa based on local id_rsa.vastai
+$ git clone git://github.com/DavidMertz/Python-webinar.git
+### For cloning without intention to push changes...
+$ git clone https://github.com/DavidMertz/PyTorch-webinar.git
+
+$ cd PyTorch-webinar/
 $ pip install --upgrade pip  # latest version changes often
-$  pip install -r requirements.txt
+$ pip install -r requirements.txt
 ```
 
 ## Recommended reading
