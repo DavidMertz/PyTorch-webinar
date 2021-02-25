@@ -55,8 +55,7 @@ machine:
 
 ```bash
 $ apt-get update  # Make sure latest repo information
-$ apt-get install git
-$ apt-get install jq curl tree vim -y
+$ apt-get install git jq curl tree vim wget unzip -y
 
 ### For modification of repo...
 ### Create ~/.ssh/id_rsa based on local /home/dmertz/.ssh/id_rsa.vastai
