@@ -3,19 +3,19 @@ channels:
   - conda-forge
   - pytorch
 dependencies:
-  - python=3
+  - python=3.7
   - pip
-  - scikit-learn
-  - pytorch
-  - torchvision
-  - pandas
-  - numpy
-  - matplotlib
-  - jupyter
-  - seaborn
-  - pillow
   - pip:
       - torchsummary
       - keras
       - tensorflow
+      - scikit-learn
+      - pytorch
+      - torchvision
+      - pandas
+      - numpy
+      - matplotlib
+      - jupyter
+      - seaborn
+      - pillow
       - allennlp
