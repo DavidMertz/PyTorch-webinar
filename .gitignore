@@ -9,3 +9,6 @@ external/*
 .DS_STORE
 **/*.swp
 **/*.pyc
+data/cell_images*
+**/*.pt
+data/cifar-10*
