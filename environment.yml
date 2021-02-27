@@ -6,11 +6,11 @@ dependencies:
   - python=3.7
   - pip
   - pip:
+      - torch
       - torchsummary
       - keras
       - tensorflow
       - scikit-learn
-      - pytorch
       - torchvision
       - pandas
       - numpy
